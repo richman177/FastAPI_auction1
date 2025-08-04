@@ -1,6 +1,6 @@
 from sqlalchemy import Integer, String, Enum, ForeignKey, Text, DECIMAL, DateTime 
 from auction_app.db.database import Base 
-from typing import Optional, List
+from typing import Optional, List  
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 from enum import Enum as PyEnum
 from datetime import datetime, date
