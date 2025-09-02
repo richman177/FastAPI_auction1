@@ -9,7 +9,7 @@ class UserProfileAdmin(ModelView, model=UserProfile):
 
 
 class CarAdmin(ModelView, model=Car):
-    column_list = [Car.id, Car.model]
+    column_list = [Car.id, Car.model] 
     name = 'Car'
     name_plural = 'Car'
 
