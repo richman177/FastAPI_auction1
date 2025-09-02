@@ -20,7 +20,7 @@ class AuctionAdmin(ModelView, model=Auction):
     name_plural = 'Auction'
 
 
-class BidAdmin(ModelView, model=Bid):
+class BidAdmin(ModelView, model=Bid): 
     column_list = [Bid.id, Bid.user]
     name = 'Bid'
     name_plural = 'Bid'
